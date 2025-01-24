@@ -5,8 +5,8 @@ plugins {
 }
 
 java {
-    sourceCompatibility = JavaVersion.VERSION_1_8
-    targetCompatibility = JavaVersion.VERSION_1_8
+    sourceCompatibility = JavaVersion.VERSION_1_7
+    targetCompatibility = JavaVersion.VERSION_1_7
 }
 
 publishing {
@@ -24,7 +24,7 @@ publishing {
 }
 
 dependencies {
-    implementation(libs.niceHttp) // HTTP Lib
+//    implementation(libs.niceHttp) // HTTP Lib
     api(libs.jackson.module.kotlin)
     api(libs.kotlinx.coroutines.core)
     api(libs.jsoup)
