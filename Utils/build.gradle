@@ -29,3 +29,7 @@ dependencies {
     api(libs.kotlinx.coroutines.core)
     api(libs.jsoup)
 }
+
+tasks.register("processDebugManifest"){
+    enabled = false
+}
